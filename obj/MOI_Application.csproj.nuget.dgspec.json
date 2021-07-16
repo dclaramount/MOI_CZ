@@ -70,12 +70,31 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-arm",
+              "version": "[5.0.4, 5.0.4]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-arm",
+              "version": "[5.0.4, 5.0.4]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-arm",
+              "version": "[5.0.4, 5.0.4]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-arm": {
+          "#import": []
         }
       }
     }
